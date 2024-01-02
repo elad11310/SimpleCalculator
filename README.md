@@ -1,5 +1,10 @@
 Smiple Caclculator:
 
+
+![image](https://github.com/elad11310/SimpleCalculator/assets/57447475/7f69ef1f-45fc-4ddf-99ab-c084c0f886fa)
+
+
+
 Requirements: 
 1)Visual Studio 
 2).NET 8 
@@ -31,7 +36,10 @@ All the supported actions are :
 
 In order to dynamically add/remove action without shuting down the application :
 
--Go to Actions table and insert/remove a record
+-Go to Actions table and insert/remove a record like the following example : 
+
+![image](https://github.com/elad11310/SimpleCalculator/assets/57447475/ca45026c-2cfc-4636-bdb9-5b95219f9da4)
+
 
   
 
