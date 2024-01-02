@@ -14,9 +14,9 @@ Smiple Caclculator:
 
 **Configurations:**  
 
-1)For auto creating of the db and suitable tables:  
-  ---\\\a)Clone this project  
-  ---\\\b)In Package Manager Console type - EntityFrameworkCore\update-database  
+1. For auto creating of the db and suitable tables:
+    a. Clone this project
+    b. In Package Manager Console type - EntityFrameworkCore\update-database
 
 **Capabilities:**   
 
