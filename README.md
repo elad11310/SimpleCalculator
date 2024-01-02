@@ -39,8 +39,9 @@ In order to dynamically add/remove action without shuting down the application :
 
 In Actions table insert/remove a record like the following example :   
 
-![image](https://github.com/elad11310/SimpleCalculator/assets/57447475/ca45026c-2cfc-4636-bdb9-5b95219f9da4)
+  **Insert Into [Actions] Values ('Perform power','Power')**  
 
+Then all you need to do is refresh the application home page.  
 
 **API refrences:**  
 
