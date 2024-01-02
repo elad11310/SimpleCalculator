@@ -14,7 +14,7 @@
 
 1) For auto creating of the db and suitable tables:  
     a. Clone this project  
-    b. In Package Manager Console type - EntityFrameworkCore\update-database  
+    b. In Package Manager Console (Tools - NuGet Package Manager - Package Manager Console) , type :  EntityFrameworkCore\update-database  
 
 **Capabilities:**   
 
