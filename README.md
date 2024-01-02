@@ -39,7 +39,7 @@ All the supported actions are :
 
 In order to dynamically add/remove action without shuting down the application :  
 
--Go to Actions table and insert/remove a record like the following example :   
+In Actions table insert/remove a record like the following example :   
 
 ![image](https://github.com/elad11310/SimpleCalculator/assets/57447475/ca45026c-2cfc-4636-bdb9-5b95219f9da4)
 
