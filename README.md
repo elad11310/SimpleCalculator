@@ -5,7 +5,7 @@ Smiple Caclculator:
 
 
 
-Requirements:     
+**Requirements:**     
 1)Visual Studio   
 2).NET 8   
 3)Sql Server   
