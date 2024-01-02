@@ -1,5 +1,3 @@
-Smiple Caclculator:
-
 
 ![image](https://github.com/elad11310/SimpleCalculator/assets/57447475/7f69ef1f-45fc-4ddf-99ab-c084c0f886fa)
 
