@@ -44,17 +44,17 @@ In Actions table insert/remove a record like the following example :
 ![image](https://github.com/elad11310/SimpleCalculator/assets/57447475/ca45026c-2cfc-4636-bdb9-5b95219f9da4)
 
 
-**API refrences**  
+**API refrences:**  
 
-1) /api/operations/GetAllOperations  
+1) **/api/operations/GetAllOperations**  
    Type: GET  
    Description: Returns all operations.  
    
-2) /api/operations/GetHistoricData?operation="operation"  
+2) **/api/operations/GetHistoricData?operation="operation"**  
    Type: GET  
    Description: Gets historic data for a specific operation  
 
-3) /api/operations/Execute  
+3) **/api/operations/Execute**  
    Type: POST  
    Description : Returns a result for action.  
    Body parameters example :  
