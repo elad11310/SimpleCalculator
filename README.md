@@ -5,18 +5,21 @@ Smiple Caclculator:
 
 
 
-**Requirements:**     
+**Requirements:**    
+
 1)Visual Studio   
 2).NET 8   
 3)Sql Server   
 4)Asp.net core  
 
-Configurations:  
+**Configurations:**  
+
 1)For auto creating of the db and suitable tables:  
   a)Clone this project  
   b)In Package Manager Console type - EntityFrameworkCore\update-database  
 
-Capabilities:   
+**Capabilities:**   
+
 This calculator can perform arithmetic actions and string actions.  
 It has four actions by default (Addition,Substraction,Division,Multiplication)  
 
