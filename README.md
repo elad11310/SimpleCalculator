@@ -7,7 +7,7 @@ Smiple Caclculator:
 
 **Requirements:**    
 
-1)Visual Studio   
+1)Microsoft Visual Studio   
 2).NET 8   
 3)Sql Server   
 4)Asp.net core  
