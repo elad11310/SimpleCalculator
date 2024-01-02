@@ -19,7 +19,6 @@ namespace SimpleCalculator.Data
 
 
         public DbSet<CalculatorAction> Actions { get; set; }
-
         public DbSet<ActionHistory> ActionHistory { get; set; }
 
 
@@ -27,15 +26,22 @@ namespace SimpleCalculator.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
-
+            // Seed data to Actions table
             modelBuilder.Entity<Models.CalculatorAction>().HasData(
-                new CalculatorAction { Id = 1, Operation = "Addition", Descirption = "Perform addition" },
-                new CalculatorAction { Id = 2, Operation = "Subtraction", Descirption = "Perform subtraction" },
-                new CalculatorAction { Id = 3, Operation = "Division", Descirption = "Perform division" },
-                new CalculatorAction { Id = 4, Operation = "Multiplication", Descirption = "Perform multiplication" }
+                new CalculatorAction { Id = 1, Operation = "Addition", Description = "Perform addition" },
+                new CalculatorAction { Id = 2, Operation = "Subtraction", Description = "Perform subtraction" },
+                new CalculatorAction { Id = 3, Operation = "Division", Description = "Perform division" },
+                new CalculatorAction { Id = 4, Operation = "Multiplication", Description = "Perform multiplication" }
 
 
                 );
+
+            // Make Operation field unique
+            modelBuilder.Entity<CalculatorAction>(entity =>
+            {
+                entity.HasIndex(e => e.Operation).IsUnique();
+            });
+
         }
     }
 }

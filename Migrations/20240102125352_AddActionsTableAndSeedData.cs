@@ -18,8 +18,8 @@ namespace SimpleCalculator.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Descirption = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Operation = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Operation = table.Column<string>(type: "nvarchar(450)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -28,7 +28,7 @@ namespace SimpleCalculator.Migrations
 
             migrationBuilder.InsertData(
                 table: "Actions",
-                columns: new[] { "Id", "Descirption", "Operation" },
+                columns: new[] { "Id", "Description", "Operation" },
                 values: new object[,]
                 {
                     { 1, "Perform addition", "Addition" },
@@ -36,6 +36,12 @@ namespace SimpleCalculator.Migrations
                     { 3, "Perform division", "Division" },
                     { 4, "Perform multiplication", "Multiplication" }
                 });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Actions_Operation",
+                table: "Actions",
+                column: "Operation",
+                unique: true);
         }
 
         /// <inheritdoc />

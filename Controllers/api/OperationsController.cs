@@ -174,7 +174,7 @@ namespace SimpleCalculator.Controllers.api
                 return ReturnServerResponse(500, "An error occurred while processing your request.");
             }
 
-          
+
         }
 
         private async Task SaveResult(string operation, string result)
@@ -202,9 +202,9 @@ namespace SimpleCalculator.Controllers.api
         private IEnumerable<ActionHistory> GetActionsBasedOnFilter(Func<ActionHistory, bool> filter, string includeProp)
         {
             var filteredActions = _db.ActionHistory
-                .Include(includeProp)
-                .Where(filter)
-                .ToList();
+                 .Include(includeProp)
+                 .Where(filter)
+                 .ToList();
 
             return filteredActions;
         }

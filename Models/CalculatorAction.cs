@@ -10,11 +10,10 @@ namespace SimpleCalculator.Models
         [Key]
         public int Id { get; set; }
 
-        public string Descirption { get; set; }
+        public string Description { get; set; }
 
         [Required]
         [Index(IsUnique = true)]
-        [MaxLength(100)]
         public string Operation { get; set; }
 
 

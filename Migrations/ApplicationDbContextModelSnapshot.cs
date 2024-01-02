@@ -55,15 +55,18 @@ namespace SimpleCalculator.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Descirption")
+                    b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Operation")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("Operation")
+                        .IsUnique();
 
                     b.ToTable("Actions");
 
@@ -71,25 +74,25 @@ namespace SimpleCalculator.Migrations
                         new
                         {
                             Id = 1,
-                            Descirption = "Perform addition",
+                            Description = "Perform addition",
                             Operation = "Addition"
                         },
                         new
                         {
                             Id = 2,
-                            Descirption = "Perform subtraction",
+                            Description = "Perform subtraction",
                             Operation = "Subtraction"
                         },
                         new
                         {
                             Id = 3,
-                            Descirption = "Perform division",
+                            Description = "Perform division",
                             Operation = "Division"
                         },
                         new
                         {
                             Id = 4,
-                            Descirption = "Perform multiplication",
+                            Description = "Perform multiplication",
                             Operation = "Multiplication"
                         });
                 });

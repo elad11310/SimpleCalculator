@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace SimpleCalculator.Migrations
 {
     /// <inheritdoc />
-    public partial class AddActionsHistoryTable : Migration
+    public partial class AddActionHistoryTable : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
