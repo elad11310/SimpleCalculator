@@ -14,7 +14,8 @@
 
 1. Clone this project.  
 2. Open Visual Studio and navigate to Tools > NuGet Package Manager > Package Manager Console.  
-3. In the Package Manager Console, execute the command: `EntityFrameworkCore\update-database`.  
+3. In the Package Manager Console, execute the command: `EntityFrameworkCore\update-database`.
+4. In the data base you should see new data base "CalculatorDB" with two tables "Actions" , "ActionHistory"
 
 
 **Capabilities:**   
