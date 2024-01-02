@@ -12,9 +12,10 @@
 
 **Configurations:**  
 
-1) For auto creating of the db and suitable tables:  
-    a. Clone this project  
-    b. In Package Manager Console (Tools - NuGet Package Manager - Package Manager Console) , type :  EntityFrameworkCore\update-database  
+1. Clone this project.  
+2. Open Visual Studio and navigate to Tools > NuGet Package Manager > Package Manager Console.  
+3. In the Package Manager Console, execute the command: `EntityFrameworkCore\update-database`.  
+
 
 **Capabilities:**   
 
@@ -23,17 +24,17 @@ It has four actions by default (Addition,Substraction,Division,Multiplication)
 
 All the supported actions are :  
 
-   Addition,  
-   Subtraction,  
-   Division,  
-   Multiplication,  
-   Power,  
-   Modulus,  
-   Compare,  
-   Concatenate,  
-   Contains,  
-   Equals,  
-   IndexOf  
+   -Addition   
+   -Subtraction    
+   -Division    
+   -Multiplication    
+   -Power    
+   -Modulus    
+   -Compare    
+   -Concatenate    
+   -Contains    
+   -Equals    
+   -IndexOf    
 
 In order to dynamically add/remove action without shuting down the application :  
 
