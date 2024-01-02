@@ -1,0 +1,61 @@
+﻿
+
+<div class="card shadow border-0 mt-4  mb-5">
+    <div class="card-header bg-secondary bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Simple Calculator</h2>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<div class="card-body p-4">
+
+    <div class="row">
+
+        <div class="col-12">
+            <div class="border p-3 mt-4">
+                <div class="row mb-13">
+                    <div class="col">
+                        <input type="text" id="FieldOne" class="form-control" placeholder="Field 1" />
+                    </div>
+                    <div class="col">
+                        <select class="form-select" id="OperationSelectList">
+                            <option disabled selected>--Operation--</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <input type="text" id="FieldSecond" class="form-control" placeholder="Field 2" />
+                    </div>
+
+                    <div class="col">
+                        <button id="CalculateBtn" class="btn btn-primary form-control">Calculate</button>
+                    </div>
+
+                    <div class="row-12 mt-4" style="height: 230px;">
+                        <textarea id="resultTextArea" class="form-control" style="height: 100%; resize: none;" readonly>Result:</textarea>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+@section Scripts {
+    <script src="~/js/index.js"></script>
+
+
+    @* Client side validations *@
+    @*    @{
+        <partial name="_ValidationScriptsPartial" />
+    } *@
+}
+
