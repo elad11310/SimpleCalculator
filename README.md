@@ -7,14 +7,14 @@ Smiple Caclculator:
 
 **Requirements:**    
 
-1)Microsoft Visual Studio   
-2).NET 8   
-3)Sql Server   
-4)Asp.net core  
+1) Microsoft Visual Studio   
+2) .NET 8   
+3) Sql Server   
+4) Asp.net core  
 
 **Configurations:**  
 
-1. For auto creating of the db and suitable tables:
+1) For auto creating of the db and suitable tables:  
     a. Clone this project
     b. In Package Manager Console type - EntityFrameworkCore\update-database
 
