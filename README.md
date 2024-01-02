@@ -36,13 +36,16 @@ All the supported actions are :
    -Equals    
    -IndexOf    
 
-In order to dynamically add/remove action without shuting down the application :  
+**Adding/Removing Actions Dynamically:**  
 
-In Actions table insert/remove a record like the following example :   
+To dynamically add or remove actions without shutting down the application:  
 
-  **Insert Into [Actions] Values ('Perform power','Power')**  
+1. Use SQL commands to insert or remove a record in the `Actions` table.  
+2. For example:  
+   - To insert a new action: `INSERT INTO [Actions] VALUES ('Perform power', 'Power')`  
+   - To remove an action: `DELETE FROM [Actions] WHERE Operation = 'Power'`  
+3. After making changes, refresh the application's home page.  
 
-Then all you need to do is refresh the application home page.  
 
 **API refrences:**  
 
