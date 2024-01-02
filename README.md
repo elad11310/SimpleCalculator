@@ -5,11 +5,11 @@ Smiple Caclculator:
 
 
 
-Requirements: 
-1)Visual Studio 
-2).NET 8 
-3)Sql Server 
-4)Asp.net core
+Requirements:     
+1)Visual Studio   
+2).NET 8   
+3)Sql Server   
+4)Asp.net core  
 
 Configurations:
 1)For auto creating of the db and suitable tables:
